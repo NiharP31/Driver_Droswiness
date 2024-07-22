@@ -1,4 +1,4 @@
-from andu_pandu import *
+from imports import *
 
 data_path = r'C:\Users\nihar\Documents\github\Deep_learning\Driver_drowsiness\Driver Drowsiness Dataset (DDD)'
 
