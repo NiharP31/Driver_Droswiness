@@ -11,3 +11,4 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import models
 from PIL import Image
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import cv2
