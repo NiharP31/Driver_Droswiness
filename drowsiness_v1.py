@@ -1,4 +1,5 @@
 from imports import *
+<<<<<<< HEAD
 from data import *
 
 all_dirs = drowsy_data_path + non_drowsy_data_path
@@ -18,5 +19,11 @@ data = data / 255.0
 data = torch.tensor(data, dtype=torch.float32)
 data = data.permute(0, 3, 1, 2)
 
+=======
+>>>>>>> 7af708786461c5358020d3166b0da2bc97d7e3bb
 
 
+<<<<<<< HEAD
+=======
+drowsy_data_path = [os.path.join(data_path, '')]
+>>>>>>> 7af708786461c5358020d3166b0da2bc97d7e3bb
